@@ -124,6 +124,8 @@ def delete_old_records():
             conn.close()
 
 # ---------------------------------
+# Global variable for conversation history
+conversation_history = []
 
 def initialize_session_state():
     """Initialize the session state variables."""
